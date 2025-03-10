@@ -1,4 +1,4 @@
 # JJ프로그래밍로직 JavaScript!
 **202511533 게임콘텐츠학과 윤채림**
 * JS기초
-[JS(1)](https://github.com/yooneunseon/JJ_JavaScript/blob/main/JJ_JS(1).js)
+[JJ_JS(1)](https://github.com/yooneunseon/JJ_JavaScript/blob/main/JJ_JS(1).js)
