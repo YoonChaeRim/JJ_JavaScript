@@ -1,6 +1,7 @@
 # JJ 프로그래밍로직 자바스크립트!
 **202511533 게임콘텐츠학과 윤채림**
-![](https://github.com/user-attachments/assets/4f0827e8-fda7-40c5-86da-528e9ad49a7e)
+![](https://github.com/user-attachments/assets/f1c9a96e-0f5f-4878-8a9d-050153d88938)
+
 
 * JS기초
 [JJ_JS(1)](https://github.com/yooneunseon/JJ_JavaScript/blob/main/JJ_JS(1).js)
