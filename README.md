@@ -2,3 +2,5 @@
 **202511533 게임콘텐츠학과 윤채림**
 * JS기초
 [JJ_JS(1)](https://github.com/yooneunseon/JJ_JavaScript/blob/main/JJ_JS(1).js)
+* 백준문제풀이
+[백준문제풀이1000~]()
