@@ -9,6 +9,6 @@
 * JS기초
 [JJ_JS(1)](https://github.com/yooneunseon/JJ_JavaScript/blob/main/JJ_JS(1).js)
 * 백준
-[백준문제풀이]()
+[백준문제풀이](JJ_백준)
 
 ![](https://github.com/user-attachments/assets/d6cf8488-bf94-4770-9b4a-d4824ceb70a9)
