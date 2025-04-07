@@ -1,0 +1,49 @@
+<!----------------------------
+주석 방법이 일반적인 방법이랑 다르다! 
+소문자로도 그냥 작성하여도 됨 
+------------------------------->
+
+<HTML>
+	<HEAD>
+		<TITLE> 실습문제 </TITLE> <!-- 여기에 한국어 작성하여도 됨 -->
+	</HEAD>
+	<BODY>
+		<script>
+		var id, name, number1, number2, kor, eng, math, hap, aver;
+		id = prompt("학번을 입력하세요.");
+		name = prompt("이름을 입력하세요.");
+		document.write("학번: " + id + "<br>" + "이름: " + name );
+		document.write("<br>"); <!--줄바꾸기-->
+		document.write("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ"+"<br>"); <!--칸나누기-->
+		<!-------------------------------------------->
+		number1 = 2;
+		number2 = 3;
+		
+		document.write("합"+(number1+number2) + "<br>");
+		document.write("차"+(number1-number2) + "<br>");
+		document.write("곱"+(number1*number2) + "<br>");
+		document.write("나누기"+(number1/number2) + "<br>");
+		document.write("몫"+parseInt((number1/number2)) + "<br>");
+		document.write("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ"+"<br>"); <!--칸나누기-->
+		<!-------------------------------------------->
+		kor = parseInt(prompt("국어 점수를 입력하세요."));
+		eng = parseInt(prompt("영어 점수를 입력하세요."));
+		math = parseInt(prompt("수학 점수를 입력하세요."));
+		hap = kor + eng + math;
+		aver = hap / 3; 
+		
+	
+		document.write("국어: " + kor +"점" + "<br>" + "영어: " + eng + "점", "<br>" + "수학: " + math + "점" + "<br>" + "총합: " + hap + "점" + "<br>" + "평균: " + aver + "점" + "<br>");
+		document.write("소수점을 제외한 평균 점수: " + parseInt(aver));
+		</script>
+	</BODY>
+</HTML>
+
+<!-------------------------------------------------------------
+document.write();
+ㄴ ()안에 들어있는 변수 혹은 문자열 출력
+var : 변수 대입 (주의!! = 표시 하지 않기) 
+"<br>" : 문장 줄 바꾸기 == "\n" (C,Java,python) 
+
+---------------------------------------------------------------->
+
