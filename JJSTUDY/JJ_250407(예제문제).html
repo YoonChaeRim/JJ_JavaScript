@@ -11,7 +11,7 @@ script 등 소문자로도 그냥 작성하여도 됨
 		<script>
 		<!-- id = 202511533; -->
 		<!-- name = "윤채림"; -->
-		var id, name, number1, number2, kor, eng, math, hap, aver;
+		var id, name, number1, number2, kor, eng, math, hap, aver, q8;
 		id = prompt("학번을 입력하세요.");
 		name = prompt("이름을 입력하세요."); 
 		document.write("학번: " + id + "<br>" + "이름: " + name );
@@ -33,10 +33,15 @@ script 등 소문자로도 그냥 작성하여도 됨
 		math = parseInt(prompt("수학 점수를 입력하세요."));
 		hap = kor + eng + math;
 		aver = hap / 3; 
-		
 	
 		document.write("국어: " + kor +"점" + "<br>" + "영어: " + eng + "점", "<br>" + "수학: " + math + "점" + "<br>" + "총합: " + hap + "점" + "<br>" + "평균: " + aver + "점" + "<br>");
 		document.write("소수점을 제외한 평균 점수: " + parseInt(aver));
+		document.write("<br>"); <!--줄바꾸기-->
+		document.write("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ"+"<br>"); <!--칸나누기-->
+		<!-------------------------------------------->
+		q8 = parseInt(prompt("숫자를 입력하세요."));
+		document.write("결과값: " + q8*5);
+		<!-- 소수점을 사용할때는 float 사용 -->
 		</script>
 	</BODY>
 </HTML>
@@ -48,3 +53,4 @@ var : 변수 대입 (주의!! = 표시 하지 않기)
 "<br>" : 문장 줄 바꾸기 == "\n" (C,Java,python) 
 parseInt : 정수형이 아닌 변수형을 정수로 바꿈
 ---------------------------------------------------------------->
+
