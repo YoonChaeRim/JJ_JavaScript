@@ -7,7 +7,7 @@
 조금 달라도 다 괜찮아"*
 ** **
 * 프로그래밍 로직
-[JJSTUDY](https://github.com/yooneunseon/JJ_JavaScript/blob/main/JJ_JS(1).js](https://github.com/YoonChaeRim/JJ_JavaScript/tree/main/JJSTUDY)](https://github.com/YoonChaeRim/JJ_JavaScript/tree/main/JJSTUDY))
+[JJSTUDY](JJSTUDY)
 * 백준
 [백준문제풀이](JJ_백준)
 
