@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title> 중간고사 연습문제 풀이 </title>
+    </head>
+    <body>
+        <script>
+            var ID, NAME, number_6Q, number_7Q_1, number_7Q_2, gender,gpa;
+            //5번문제
+            ID = prompt("Yor ID?");
+            NAME = prompt("Name?");
+
+            document.write("ID : " + ID + "<br>" + "Name : " + NAME );
+
+            //6번문제
+            number_6Q = parseInt((prompt("Please enter any number."));
+            if ( number_6Q % 5 == 0 ) {
+                document.write("5X!");
+            }
+            else {
+                document.write("OMG!");
+            }
+
+            //7번문제
+            number_7Q_1 = parseInt(prompt("Please enter any number."));
+            number_7Q_2 = parseInt(prompt("Please enter any number."));
+            if ( number_7Q_1 - number_7Q_2 == 0 ) {
+                document.write("ZERO")
+            }
+            else if ( number_7Q_1 - number_7Q_2 > 0 ) {
+                document.write("POSITIVE")
+            }
+            else if ( number_7Q_1 - number_7Q_2 < 0 ) {
+                document.write("NEGATIVE")
+            }
+
+            //8번문제
+            gender = prompt("Enter your gender, female or male.");
+            gpa = parseFloat(prompt("Enter your GPA, 0-5.0 scale."));
+
+            if ( gender == "female" ) {
+                if ( gpa >= 3.5 ) {
+                    document.write("Flight attendant.");
+                }
+                else {
+                    document.write("Sorry.");
+                }
+            }
+            else if ( gender == "male") {
+                if ( gpa >= 3.8 ) {
+                    document.write("Control tower.");
+                }
+                else {
+                    document.write("Sorry.")
+                }
+            }
+        </script>
+    </body>
+</html>
