@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title> 반복문 예제풀이 </title>
+	</head>
+	<body>
+		<script>
+			var name, eng, count1, count2, i3;
+			count1 = 1;
+			/*while ( count1 < 11 ) {
+				name = prompt ("이름을 입력하세요.");
+				eng = prompt("영어 점수를 입력하세요.");
+				
+				document.write(`이름 ${count1}: ${name}`+"<br>");
+				document.write(`영어 점수 = ${eng}`+ "<br>");
+				count1++
+			}*/
+			
+			count2 = 1;
+			while ( count2 <= 10 ){
+				document.write("**********"+"<br>");
+				count2++
+			}
+			
+			i3 = 1;
+			while ( i3 <= 5 ) {
+				document.write("*"+"<br>");
+				i3 ++ 
+			}
+			
+			
+		</script>
+	</body>
+</html>
