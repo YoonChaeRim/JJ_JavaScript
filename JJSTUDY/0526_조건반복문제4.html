@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<META charset = "UTF-8">
+		<title>양의 정수를 입력받아 홀수 혹은 짝수 구구단을 출력하는 스크립트</title>
+	</head>
+	<body>
+		<script>
+			var count, number;
+			number = parseInt(prompt("양의 정수를 입력하세요."));
+			if ( number %2 == 0 ) {
+				for ( count = 2; count <=8; count = count +2 ){
+					document.write(`${number} * ${count} = ${number*count} <br>`);
+				}
+			}
+			else {
+				for ( count = 1; count <= 9; count = count + 2 ) {
+					document.write(`${number} * ${count} = ${number*count} <br>`);
+				}
+			}
+			
+		</script>
+	</body>
+</html>
