@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title> 평점판독기 </title>
+	</head>
+	<body>
+		<script>
+		var gpa;
+		gpa = parseFloat(prompt("평점(GPA)를 입력하세요."));
+		if (gpa > 4.5) {
+			document.write("잘못된 입력입니다.");
+		}
+		else {
+			if (gpa >= 4.0) {
+				document.write("해외연수 기회부여");
+			}
+			else {
+				document.write("sorry");
+			}
+		}
+		</script>
+	</body>
+</html>

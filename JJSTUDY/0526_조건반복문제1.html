@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>점수를 입력받아 학점을 출력하시오.</title>
+	</head>
+	<body>
+		<script>
+			var score;
+			score = parseInt(prompt("점수를 입력하세요. 점수는 0부터 100까지입니다."));
+			if ( score >= 0 && score <= 100 ) {
+				if ( score <= 59 ) {
+					document.write("F학점");
+				}
+				else if ( score <= 69 && score >= 60 ) {
+					document.write("D학점");
+				}
+				else if ( score <= 79 && score >= 70 ) {
+					document.write("C학점");
+				}
+				else if ( score <= 89 && score >= 80 ) {
+					document.write("B학점");
+				}
+				else if ( score <= 100 && score >= 90 ) {
+					document.write("A학점");
+				}
+			}
+			else {
+				document.write("잘못 입력하였습니다.");
+			}
+		</script>
+	</body>
+</html>

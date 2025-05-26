@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<META charset = "UTF-8">
+		<title>두 개의 정수를 입력 받아 큰 수와 작은 수를 출력하고 두 사이의 짝수를 출력하는 스크립트</title>
+	</head>
+	<body>
+		<script>
+			var count, number_1, number_2;
+			number_1 = parseInt(prompt("양의 정수를 입력하세요, 1번 양수."));
+			number_2 = parseInt(prompt("양의 정수를 입력하세요, 2번 양수."));
+			
+			//number_1 이 작은 수 일 때
+			if ( number_1 <= number_2 ) {
+				document.write(`작은 수 ${number_1} <br>큰 수 = ${number_2} <br>`);
+				document.write("두 수 사이의 짝수" + "<br>");
+				if ( number_1 %2 == 0 ) {
+					for ( count = number_1; count <= number_2; count = count + 2) {
+						document.write(`${count} `);
+					}
+				}
+				else {
+					for ( count = number_1+1; count <= number_2; count = count + 2) {
+						document.write(`${count} `);
+					}
+				}
+			}
+			//number_2 가 작은 수 일 때
+			else if (number_2 < number_1 ) {
+				document.write(`작은 수 ${number_2} <br>큰 수 = ${number_1} <br>`);
+				document.write("두 수 사이의 짝수" + "<br>");
+				if ( number_2 %2 == 0 ) {
+					for ( count = number_2; count <= number_1; count = count + 2) {
+						document.write(`${count} `);
+					}
+				}
+				else {
+					for ( count = number_2+1; count <= number_1; count = count + 2) {
+						document.write(`${count} `);
+					}
+				}
+			}
+			
+		</script>
+	</body>
+</html>

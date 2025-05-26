@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title> 홀수 짝수를 이용한 조건문 </title>
+	</head>
+	<body>
+		<script>
+		var number_1, number_2, sum, diff;
+		number_1 = parseInt(prompt("숫자를 1을 입력하세요."));
+		number_2 = parseInt(prompt("숫자를 2를 입력하세요."));
+		sum = number_1 + number_2;
+		diff = Math.abs(number_1 - number_2);
+		//Math.abs 절댓값 표시. 마이너스 부호를 없앰
+		
+		if (number_1 % 2 == 0 && number_2 % 2 == 0 ) {
+			document.write(sum + "<br>");
+		}
+		else {
+			document.write(diff + "<br>" );
+		}
+		</script>
+	</body>
+</html>

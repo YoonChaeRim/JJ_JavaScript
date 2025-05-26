@@ -1,0 +1,22 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			//1. 2개의 숫자를 입력 받아 두 숫자 사이에 있는 모든 짝수의 합
+			var sum = 0,count, number1, number2;
+			number1 = parseInt(prompt("작은 양의 정수를 입력하세요."));
+			number2 = parseInt(prompt("큰 양의 정수를 입력하세요."));
+			for ( count = number1; count <= number2; count ++ ) {
+				if ( count %2 == 0 ) {
+					sum = sum + count;
+					document.write(`${count} + `);
+				}
+				else {
+				
+				}
+			}
+			document.write(`= ${sum}`);
+		</script>
+	</body>
+</html>

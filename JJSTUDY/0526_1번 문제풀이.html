@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var count, number_1, number_2, sum = 0;
+			number_1 = parseInt(prompt("양의 정수를 입력하세요."));
+			number_2 = parseInt(prompt("양의 정수를 입력하세요."));
+			
+			if ( number_1 <= number_2 ) {
+				if ( number_1 % 2 == 0 ) {
+					for ( count = number_1; count <= number_2; count = count +2 ) {
+						sum = sum + count;
+					}
+				}
+				else {
+					for ( count = number_1+1; count <= number_2; count = count +2 ){
+						sum = sum + count;
+					}
+				}
+				document.write(`짝수의 합 = ${sum}`);
+			}
+			else if ( number_1 > number_2 ) {
+				if ( number_2 % 2 == 0 ) {
+					for ( count = number_2; count <= number_1; count = count +2 ) {
+						sum = sum + count;
+					}
+				}
+				else {
+					for ( count = number_2+1; count <= number_1; count = count +2 ){
+						sum = sum + count;
+					}
+				}
+				document.write(`짝수의 합 = ${sum}`);
+					
+				}
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title> 우수학생 판독기 </title>
+	</head>
+	<body>
+		<script>
+		var subject_1, subject_2, sum;
+		subject_1 = parseInt(prompt("과목 1의 점수를 입력하세요."));
+		subject_2 = parseInt(prompt("과목 2의 점수를 입력하세요."));
+		sum = subject_1 + subject_2
+		
+		if (( subject_1 >= 80 && subject_2 >=80 ) ||(sum >= 160)) {
+			// &&는 and를 의미함, 두 개의 조건 모두 만족해야만 true 판정 
+			// ||는 or을 의미. 둘 중 하나만 조건을 만족하더라도 true
+			document.write("우수학생"+"<br>");
+		}
+		document.write("출력이 완료되었습니다.");
+		
+		</script>
+	</body>
+</html>
