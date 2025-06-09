@@ -5,19 +5,36 @@
 	</head>
 	<body>
 		<script>
-			var x, count;
+			var x,count, i;
 			x = prompt("금도끼, 은도끼 선택하세요.(금도끼or은도끼)");
+			i = parseInt(prompt("몇 번 휘두르겠습니까?"));
 			if ( x == "금도끼" ) {
-				for ( count = 1; count <= 10; count ++ ){
-					document.write(`금도끼로 나무를 캐는 중... (${count}) <br>`);
+				if ( i >= 5 ) {
+					for ( count = 1; count <= i; count ++ ) {
+						document.write(`나무를 캐는 중... (${count}) <br>`);
+					}
+					document.write("나무가 쓰러졌다!");
 				}
-				document.write("나무가 쓰러졌다!");
+				else {
+					for ( count = 1; count <= i; count ++ ) {
+						document.write(`나무를 캐는 중... (${count}) <br>`);
+					}
+					document.write("나무가 쓰러지지 않았다... ");
+				}
 			}
 			else if ( x == "은도끼" ) {
-				for ( count = 1; count <= 15; count ++ ){
-					document.write(`은도끼로 나무를 캐는 중... (${count}) <br>`);
+				if ( i >= 10 ) {
+					for ( count = 1; count <= i; count ++ ) {
+						document.write(`나무를 캐는 중... (${count}) <br>`);
+					}
+					document.write("나무가 쓰러졌다!");
 				}
-				document.write("나무가 쓰러졌다!");
+				else {
+					for ( count = 1; count <= i; count ++ ) {
+						document.write(`나무를 캐는 중... (${count}) <br>`);
+					}
+					document.write("나무가 쓰러지지 않았다... ");
+				}
 			}
 			else {
 				document.write("창을 새로고침하여 다시 입력하세요.");
